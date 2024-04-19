@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(237, 222, 164);
+  color: rgb(15, 163, 177);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 10vh;
+  margin: 2vh;
+  border-radius: 3vh;
+
+  background-color: rgb(217, 229, 214);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 72vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 10vh;
+  margin: 2vh;
+  border-radius: 3vh;
+
+  background-color: rgb(217, 229, 214);
+}
+
+.options-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 35vh;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  height: 10vh;
+
+  font-size: x-large;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 15vh;
+}
+
+#stone {
+  width: 10rem;
+  height: 10rem;
+
+  border: none;
+  border-radius: 5rem;
+
+  background-image: url("./assets/stone.png");
+  background-size: 10rem 10rem;
+}
+
+#paper {
+  width: 10rem;
+  height: 10rem;
+
+  margin-bottom: 4rem;
+
+  border: none;
+  border-radius: 5rem;
+
+  background-image: url("./assets/paper.png");
+  background-size: 10rem 10rem;
+}
+
+#scissor {
+  width: 10rem;
+  height: 10rem;
+
+  border: none;
+  border-radius: 5rem;
+
+  background-image: url("./assets/scissor.png");
+  background-size: 10rem 10rem;
+}
+
+#message-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3vh;
+  border-radius: 3vh;
+  border: none;
+
+  background-color: rgb(217, 229, 214);
+  color: rgb(15, 163, 177);
+  font-size: xx-large;
+  font-weight: bold;
+}
